@@ -1,0 +1,3 @@
+relatives={"Lisa":"daughter", "Bart":"son", "Marge":"mother", "Homer":"father", "Santa":"Dog"}
+ages={"Lisa":8,"Bart":10,"Marge":35,"Homer":40,"Santa":2}
+print("The Simpsons\nHomer is a", relatives.get("Homer"), "and is", ages.get("Homer"),"years old\nLisa is a", relatives.get("Lisa"), "and is", ages.get("Lisa"),"years old\nBart is a", relatives.get("Bart"), "and is", ages.get("Bart"),"years old\nMarge is a", relatives.get("Marge"), "and is", ages.get("Marge"),"years old\nSanta is a", relatives.get("Santa"), "and is", ages.get("Santa"),"years old")
