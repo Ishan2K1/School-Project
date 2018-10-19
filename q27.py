@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Oct 19 10:13:59 2018
-
-@author: Ishan Khandelwal
-"""
-
 #Bubble Sort
 l1=[]
 while True:
