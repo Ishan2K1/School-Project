@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Oct 19 10:27:29 2018
-
-@author: Ishan Khandelwal
-"""
-
 #Insertion Sort
 l1=[]
 while True:
@@ -23,4 +16,4 @@ for i in range(1,len(l1)):
         count+=1
     l1[j+1]=key
         
-print(l1, count)        
+print(l1, count)
