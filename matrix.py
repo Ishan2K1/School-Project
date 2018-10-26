@@ -24,4 +24,4 @@ for i in l2:
 for i in l2:
     
     for j in range(len(l2)):
-        columnSum=        
+        columnSum=       #incomplete
