@@ -1,0 +1,40 @@
+#q26
+l=[]
+n=int(input("Enter number here"))
+while n!=1:
+    l.append(int(n))
+    if n%2==0:
+        n=n/2
+    else:
+        n=int(n*3)+1
+l.append(1)
+print(l)
+#a
+print(len(l),"is the total number of elemnts in the list")
+#b
+l1=l
+#bubble sort
+countbSort=0
+for i in range(len(l)):
+    for j in range(len(l)-1-i):
+        if l[j]>l[j+1]:
+            l[j],l[j+1]=l[j+1],l[j]
+            countbSort+=1
+print(l,"Efficiency is",countbSort)
+#Insertion Sort
+countiSort=0
+for i in range(1,len(l1)):
+    j=i-1
+    k=l1[i]
+    while j>=0 and k<l1[j]:
+        l1[j+1]=l1[j]
+        j=j-1
+        countiSort+=1
+    l1[j+1]=k
+        
+print(l1,"Efficiency is",countiSort)
+#c
+for i in l:
+    if i%10==0:
+        l.remove(i)
+print(l)
