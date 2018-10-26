@@ -1,12 +1,5 @@
 #insertion Sort
-l1=[]
-
-while True:
-    m=input("Enter Number here")
-    if m!="":
-        l1.append(int(m))
-    else:
-        break
+l1=eval(input("Enter List here"))
 count=0
 for i in range(1,len(l1)):
     j=i-1
