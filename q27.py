@@ -1,11 +1,5 @@
 #Bubble Sort
-l1=[]
-while True:
-    m=input("Enter Number Here")
-    if m!="":
-        l1.append(int(m))
-    else:
-        break
+l1=eval(input("Enter list here"))
 count=0
 for i in range(len(l1)):
     for j in range(len(l1)-i-1):
