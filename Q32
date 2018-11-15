@@ -1,0 +1,15 @@
+d={}
+l=[]
+l2=[]
+while True:
+    m=input("Enter words here")
+    if m!="":
+        l.append(m)
+    else:
+        break
+for i in l:
+    if i not in l2:
+        l2.append(i)
+for i in l2:
+    d[i]=l.count(i)
+print(d)
