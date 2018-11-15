@@ -5,9 +5,7 @@ for i in d:
     d2[i]=len(l)
 print(d2)
 d3={}
-l2=[]
-l3=[]
-l4=[]
+l2,l3=[]
 for i in d:
     l=d.get(i)
     for j in l:
